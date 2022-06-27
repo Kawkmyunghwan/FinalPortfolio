@@ -17,7 +17,7 @@
 - [Java 11] - Language
 - [Github] - VCS
 - [Oracle, Oracle Cloud] - DB
-- 
+
 ### BackEnd
 - [Spring Boot] 
 - [Gradle] 
@@ -32,7 +32,7 @@
 - [thymeLeaf]
 
 ### Collaborate
-- [Jira Software](https://breakdance.github.io/breakdance/](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
+- [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
 
 
 |                  | 수학                        | 평가              |  
