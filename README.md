@@ -114,7 +114,7 @@
     </select>
 ```
 
-## 2.2 
+## 2.2 회원, 비회원의 매출을 구분하여 보여주는 쿼리
 
 ```xml:workerAttendance_mapper.xml
 
@@ -128,4 +128,26 @@
         GROUP BY CASE WHEN MEMBER_ID = '0' THEN '비회원' ELSE '회원' END
     </select>
 
+```
+
+## 2.3 현재 출근한 근무자의 정보를 조회할 수 있는 쿼리
+
+```xml:workerAttendance_mapper.xml
+<select id="getNowWorker" resultType="com.yedam.tfprj.admin.workerAttendance.service.WorkerAttendanceVO">
+        SELECT A.WORKER_ID,
+               A.IN_TIME,
+               A.OUT_TIME,
+               A.IS_LATE,
+               A.IS_ABSENCE,
+               I.WORKER_NAME, W.GOING_TIME, W.QUITTING_TIME, A.ATT_DT ,I.POSITION_CD, I.USERTYPE, I.STARTDAY, I.ALLPAY
+        FROM STAFF_ATTENDANCE A
+                 INNER JOIN STAFF_INFORMATION I
+                            ON A.WORKER_ID = I.WORKER_ID
+                 INNER JOIN WORKSHEET W
+                            ON I.WORKER_ID = W.WORKER_ID
+        WHERE TO_CHAR(current_date, 'yy-MM-dd hh24:mi') BETWEEN A.IN_TIME AND TO_CHAR(W.QUITTING_TIME, 'yy-MM-dd hh24:mi')
+          AND TO_DATE(A.ATT_DT, 'yy-MM-dd') = TO_DATE(current_date, 'yy-MM-dd')
+          AND A.OUT_TIME IS NULL
+          and to_char(w.going_time, 'yy-MM-dd') = a.att_dt
+    </select>
 ```
