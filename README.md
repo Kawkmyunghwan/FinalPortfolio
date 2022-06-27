@@ -3,7 +3,7 @@
 ### 저희팀은 '스크린야구 예약 시스템' 이라는 주제로 프로젝트를 만들게 되었습니다.
 ### 그 중 제가 맡은 역할은, 관리자 페이지에서 전반적인 매장관리 파트를 맡게되었습니다.
 
-## <a href="https://www.google.com/" target="_blank">시연영상 바로 보기 ▶️</a>
+## <a href="https://youtu.be/wsCW0oRwgWA?t=8195" target="_blank">시연영상 바로 보기 ▶️</a>
 ```sh
 * 근무자 관리
 * 매출관리
