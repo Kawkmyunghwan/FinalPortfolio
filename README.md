@@ -1,7 +1,6 @@
 # 예담 최종프로젝트, 'BAT-HUB'
 ### 예담직업전문학교에서 팀 단위로 실시한 최종프로젝트 결과물입니다.
 ### 저희팀은 '스크린야구 예약 시스템' 이라는 주제로 프로젝트를 만들게 되었습니다.
-### 그 중 제가 맡은 역할은, 관리자 페이지에서 전반적인 매장관리 파트를 맡게되었습니다.
 
 ## <a href="https://youtu.be/wsCW0oRwgWA?t=8195" target="_blank">시연영상 바로 보기 ▶️</a>
 
@@ -38,33 +37,19 @@
 |메모리|16GB RAM|
 |보조 기억장치|SSD 250GB|
 |형상관리|GitHub|
-
-> - [Intellij] - IDE
-> - [Java 11] - Language
-> - [Github] - VCS
-> - [Oracle, Oracle Cloud] - DB
-
-### BackEnd
-> - [Spring Boot] 
-> - [Gradle] 
-> - [Spring Secruity] 
-> - [mybatis] 
-
-
-### FrontEnd
-> - [HTML, CSS, JS]
-> - [jQuery]
-> - [BootStrap]
-> - [thymeLeaf]
-
-### Collaborate
-> - [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
+|협업|[Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)|
 
 ## 프로젝트 기능 구현
 
+<ul>
+  <li>근무자 관리</li>
+       <ul>dd</ul>
+  <li>매출관리</li>
+  <li>TodoList 관리</li>
+</ul>
+
 ```sh
 * 근무자 관리
-        *ㅇㅇ
 * 매출관리
 * TodoList 관리
 ```
