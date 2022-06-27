@@ -4,11 +4,6 @@
 ### 그 중 제가 맡은 역할은, 관리자 페이지에서 전반적인 매장관리 파트를 맡게되었습니다.
 
 ## <a href="https://youtu.be/wsCW0oRwgWA?t=8195" target="_blank">시연영상 바로 보기 ▶️</a>
-```sh
-* 근무자 관리
-* 매출관리
-* TodoList 관리
-```
 
 ## 개요
 ### BAT-HUB란?
@@ -65,6 +60,14 @@
 ### Collaborate
 > - [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
 
+## 프로젝트 기능 구현
+
+```sh
+* 근무자 관리
+        *ㅇㅇ
+* 매출관리
+* TodoList 관리
+```
 
 # 페이지 소개
 ## 1.1 대시보드
