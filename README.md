@@ -40,11 +40,6 @@
 > - [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
 
 
-|                  | 수학                        | 평가              |  
-|:--- | ---: | :---: |  
-| 철수             | 90            | 참잘했어요. |
-| 영희           | 50            | 분발하세요. |
-
 # 페이지 소개
 ## 1.1 대시보드
 <img src="/images/5_매장관리/대시보드.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
@@ -151,3 +146,6 @@
           and to_char(w.going_time, 'yy-MM-dd') = a.att_dt
     </select>
 ```
+
+해당 내용은 프로젝트의 일부분을 소개한 것입니다. 포트폴리오를 더 상세하게 조회하고 싶으시면,
+
