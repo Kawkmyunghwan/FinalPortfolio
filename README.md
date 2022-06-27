@@ -13,5 +13,5 @@
 | 철수             | 90            | 참잘했어요. |  
 | 영희           | 50            | 분발하세요. |
 
-![Alt text](/images/1_home.jpg)
+![Alt text](/images/1_home.jpg) 
 ![Alt text](/images/5_매장관리/todolist 댓글권한1.png)
