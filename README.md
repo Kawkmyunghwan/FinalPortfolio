@@ -15,4 +15,4 @@
 
 ![Alt text](/images/1_home.jpg) 
 
-<img src="/images/5_매장관리/todolist 댓글권한1.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/images/5_매장관리/todolist 댓글권한1.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
