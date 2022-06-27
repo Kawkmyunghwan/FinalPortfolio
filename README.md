@@ -30,11 +30,19 @@
 
 ## 사용한 기술스택
 
-|제목|내용|
+|Category|Detail|
 |:---:|:---:|
-|왼쪽정렬|오른쪽정렬|
-|왼쪽정렬|오른쪽정렬|
-|왼쪽정렬|오른쪽정렬|
+|OS|Windows 10 pro|
+|개발언어|Java(11), Servlet, SpringBoot, Mybatis, HTML5, Javascript, CSS|
+|데이터베이스|Oracle Database Express Edition 11g Release 2|
+|서버|TOMCAT 9.0|
+|IDE|IntelliJ|
+|빌드 배포|Gradle, jenkins|
+|테스트 툴|Junit|
+|프로세스|Intel(R) Core  i7-10700 CPU @ 2.90GHz|
+|메모리|16GB RAM|
+|보조 기억장치|SSD 250GB|
+|형상관리|GitHub|
 
 > - [Intellij] - IDE
 > - [Java 11] - Language
