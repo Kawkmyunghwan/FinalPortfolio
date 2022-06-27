@@ -43,7 +43,7 @@
 
 <ul>
   <li>근무자 관리</li>
-       <ul>dd</ul>
+  <ul><li>dd</li></ul>
   <li>매출관리</li>
   <li>TodoList 관리</li>
 </ul>
