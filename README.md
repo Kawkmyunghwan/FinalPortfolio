@@ -95,9 +95,21 @@
 # 소스코드 소개
 ## 2.1 출퇴근시간을 계산해서 percent로 보여주는 쿼리
 
-```html:hello.html
+```xml:workerAttendance_mapper.xml
 
-<div>
- <p>Hello, LYNMP!</p>
-</div>
+<select id="getPercent" resultType="com.yedam.tfprj.admin.workerAttendance.service.WorkerAttendanceVO">
+        SELECT W.WORKER_ID,
+               S.ATT_DT,
+               W.GOING_TIME,
+               QUITTING_TIME,
+               TO_DATE(S.IN_TIME, 'YY-MM-DD HH24:MI') AS inMTime,
+               S.OUT_TIME,
+               ROUND(((current_date - TO_DATE(S.IN_TIME, 'YY-MM-DD HH24:MI')) *24)/((QUITTING_TIME - GOING_TIME) *24),2) * 100  AS percent,
+               ROUND((W.QUITTING_TIME - current_date) * 24 * 60 * 60, 2) AS getMTime
+        FROM WORKSHEET W, STAFF_ATTENDANCE S
+        WHERE W.WORKER_ID = S.WORKER_ID
+               AND S.ATT_DT = TO_CHAR(current_date, 'YY-MM-DD')
+               AND TO_CHAR(W.GOING_TIME, 'YY-MM-DD') = S.ATT_DT
+               AND W.WORKER_ID = #{workerId}
+    </select>
 ```
