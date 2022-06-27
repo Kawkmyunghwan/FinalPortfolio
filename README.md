@@ -11,6 +11,27 @@
 
 > Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
 
+## 사용한 기술스택
+
+Dillinger uses a number of open source projects to work properly:
+
+- [Intellij] - IDE
+- [Java 11] - Language
+- [Github] - VCS
+
+###BackEnd
+- [Spring Boot] - BackEnd FrameWork
+- [Gradle] - BackEnd
+- [Spring Secruity] - BackEnd
+- [mybatis] - BackEnd
+- [Oracle, Oracle Cloud] - DB
+
+###FrontEnd
+- [jQuery] - duh
+
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
+
 
 |                  | 수학                        | 평가              |  
 |:--- | ---: | :---: |  
