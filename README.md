@@ -13,24 +13,26 @@
 
 ## 사용한 기술스택
 
-Dillinger uses a number of open source projects to work properly:
-
 - [Intellij] - IDE
 - [Java 11] - Language
 - [Github] - VCS
-
-###BackEnd
-- [Spring Boot] - BackEnd FrameWork
-- [Gradle] - BackEnd
-- [Spring Secruity] - BackEnd
-- [mybatis] - BackEnd
 - [Oracle, Oracle Cloud] - DB
+- 
+### BackEnd
+- [Spring Boot] 
+- [Gradle] 
+- [Spring Secruity] 
+- [mybatis] 
 
-###FrontEnd
-- [jQuery] - duh
 
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+### FrontEnd
+- [HTML, CSS, JS]
+- [jQuery]
+- [BootStrap]
+- [thymeLeaf]
+
+### Collaborate
+- [Jira Software](https://breakdance.github.io/breakdance/](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
 
 
 |                  | 수학                        | 평가              |  
