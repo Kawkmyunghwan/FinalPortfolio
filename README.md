@@ -33,6 +33,8 @@
 
 ## 사용기술 및 개발환경
 
+<img src="/stack.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+
 |Category|Detail|
 |:---:|:---:|
 |OS|Windows 10 pro|
