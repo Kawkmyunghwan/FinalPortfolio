@@ -9,6 +9,8 @@
 * TodoList 관리
 ```
 
+> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+
 
 |                  | 수학                        | 평가              |  
 |:--- | ---: | :---: |  
