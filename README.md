@@ -9,7 +9,7 @@
 * TodoList 관리
 ```
 
-## <span style="color:red">제가 보여주는 차별점</span>
+## <span style="color:red">차별점</span>
 ### 저희는 학원에서 배우기만 한 기술스택이 아닌, 저희 스스로가 학습하여 새로운 기술스택을 활용해보았습니다. 
 ### 저희는 Spring Boot, thymeLeaf를 활용하여 서비스를 구축하였습니다. 
 ### 또한 저 개인적으로, 마크다운 이라는 언어를 스스로 공부하여 깃허브 데스크탑과 연동해 포트폴리오를 깃허브에 업로드 했습니다. 
@@ -45,8 +45,7 @@
 | 철수             | 90            | 참잘했어요. |
 | 영희           | 50            | 분발하세요. |
 
-## 주요기능
+## 페이지 소개
 
-![Alt text](/images/1_home.jpg) 
-
-<img src="/images/5_매장관리/todolist 댓글권한1.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/images/5_매장관리/대시보드.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/images/5_매장관리/todolist 체크하기2.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
