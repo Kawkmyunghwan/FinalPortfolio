@@ -9,37 +9,43 @@
 * TodoList 관리
 ```
 
-> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+## Spring Boot
+### 저희는 학원에서 배우기만 한 기술스택이 아닌, 저희 스스로가 학습하여 새로운 기술스택을 활용해보았습니다. 
+### 저희는 Spring Boot, thymeLeaf를 활용하여 서비스를 구축하였습니다. 
+
+
+
 
 ## 사용한 기술스택
 
-- [Intellij] - IDE
-- [Java 11] - Language
-- [Github] - VCS
-- [Oracle, Oracle Cloud] - DB
+> - [Intellij] - IDE
+> - [Java 11] - Language
+> - [Github] - VCS
+> - [Oracle, Oracle Cloud] - DB
 
 ### BackEnd
-- [Spring Boot] 
-- [Gradle] 
-- [Spring Secruity] 
-- [mybatis] 
+> - [Spring Boot] 
+> - [Gradle] 
+> - [Spring Secruity] 
+> - [mybatis] 
 
 
 ### FrontEnd
-- [HTML, CSS, JS]
-- [jQuery]
-- [BootStrap]
-- [thymeLeaf]
+> - [HTML, CSS, JS]
+> - [jQuery]
+> - [BootStrap]
+> - [thymeLeaf]
 
 ### Collaborate
-- [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
+> - [Jira Software](https://luk2903201-jira.atlassian.net/jira/software/projects/YD/boards/3)
 
 
 |                  | 수학                        | 평가              |  
 |:--- | ---: | :---: |  
-| 철수             | 90            | 참잘했어요. |  
+| 철수             | 90            | 참잘했어요. |
 | 영희           | 50            | 분발하세요. |
+
+## 주요기능
 
 ![Alt text](/images/1_home.jpg) 
 
