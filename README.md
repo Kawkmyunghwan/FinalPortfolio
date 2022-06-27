@@ -55,4 +55,4 @@
 ##### 금일의 매출 부분입니다. 구글차트를 통해 차트를 표현했으며, 현재 차트가 표시되지 않는 이유는 당일날의 매출이 없기 때문입니다. 
 ##### 주간근무표 입니다. FullCalendar을 통해 월간 근무표를 생성할 수 있으며, 이번주 일요일 - 토요일 까지의 시간이 표시됩니다.
 
-<img src="/images/5_매장관리/todolist 체크하기2.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/gifImages/5_매장관리/GIF 2022-06-27 오후 3-45-47.gif" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
