@@ -43,9 +43,20 @@
 
 <ul>
   <li>근무자 관리</li>
-  <ul><li>dd</li></ul>
+    <ul><li>근무자 상태 조회 및 변경</li></ul>
+    <ul><li>근무자 등록 및 수정, 총 근무자 엑셀 다운로드</li></ul>
+    <ul><li>현재 출근한 근무자 조회, 주간근무표 조회</li></ul>
+    <ul><li>월간 근무표 CRUD </li></ul>
+    <ul><li>근무자 출퇴근</li></ul>
   <li>매출관리</li>
+    <ul><li>금일 매출 조회</li></ul>
+    <ul><li>비회원/회원 매출 조회</li></ul>
+    <ul><li>요일별 평균 매출 조회</li></ul>
+    <ul><li>온/오프라인 구분 매출 조회</li></ul>
   <li>TodoList 관리</li>
+    <ul><li>TodoList CRUD</li></ul>
+    <ul><li>할 일의 사진 업로드 및 댓글 CRUD</li></ul>
+    <ul><li>체크리스트 체크, 해결, 삭제</li></ul>
 </ul>
 
 ```sh
