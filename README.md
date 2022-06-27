@@ -113,3 +113,19 @@
                AND W.WORKER_ID = #{workerId}
     </select>
 ```
+
+## 2.2 
+
+```xml:workerAttendance_mapper.xml
+
+<select id="findMemNonMem" resultType="map">
+        SELECT CASE WHEN MEMBER_ID = '0' THEN '비회원' ELSE '회원' END AS "member", SUM(PAYMENT_AMOUNT) AS "paymentAmount"
+        FROM PAYMENT
+        where TO_CHAR(PAYMENT_DATE, 'YYYY-MM-DD') BETWEEN #{firstDate} AND #{lastDate}
+        <if test='day != 0'>
+            AND TO_CHAR(PAYMENT_DATE, 'D') = #{day}
+        </if>
+        GROUP BY CASE WHEN MEMBER_ID = '0' THEN '비회원' ELSE '회원' END
+    </select>
+
+```
