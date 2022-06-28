@@ -17,7 +17,7 @@
 6. <b>BootStrap</b>을 활용한 반응형 페이지 제작 및 Modal 활용.
 7. <b>DevTools</b>의 Live Reload 기능 활성화를 통한 생산성 및 개발 효율성 증대.
 8. <b>thymeleaf-layout-dialect</b> 라이브러리를 이용해 중복 코드를 최소화.
-## Contetns
+## Contens
 ```sh
 * 예약
 * 매장관리
