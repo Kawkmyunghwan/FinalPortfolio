@@ -13,8 +13,10 @@
 2. <b>Lombok</b>을 이용하여 어노테이션 설정으로 간단하게 VO 객체를 생성하여 코드를 간결화 시켜줌.
 3. <b>Google Chart</b>를 이용하여 각 매출에 반영되는 그래프를 가시적으로 표현함.
 4. <b>FullCalendar</b> 라이브러리를 이용해 월간 근무표 생성, 수정, 삭제할 수 있는 캘린더를 구현함.
-5. <b>AJAX</b>를 통해 페이지 로딩속도 및 편리성 증대
-6. <b>BootStrap</b>을 활용한 반응형 페이지 제작 및 Modal 활용
+5. <b>AJAX</b>를 통해 페이지 로딩속도 및 편리성 증대.
+6. <b>BootStrap</b>을 활용한 반응형 페이지 제작 및 Modal 활용.
+7. <b>DevTools</b>의 Live Reload 기능 활성화를 통한 생산성 및 개발 효율성 증대.
+8. <b>thymeleaf-layout-dialect</b> 라이브러리를 이용해 중복 코드를 최소화.
 ## Contetns
 ```sh
 * 예약
